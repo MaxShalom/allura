@@ -1,3 +1,9 @@
+@font-face {
+  font-family: SanFranciscoText-Heavy;
+  font-weight: heavy;
+  src: url("assets/SanFranciscoText-Heavy.otf") format("opentype");
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -6,6 +12,10 @@ body {
   z-index: 9;
   width: 100%;
   background: #fbfbff;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 ul {
@@ -31,18 +41,50 @@ li a {
 
 li a:hover {
   background: #0b4f6c; /* Old Browsers */
-background: -webkit-linear-gradient(top left,#0b4f6c,#01baef); /*Safari 5.1-6*/
-background: -o-linear-gradient(top left,#0b4f6c,#01baef); /*Opera 11.1-12*/
-background: -moz-linear-gradient(top left,#0b4f6c,#01baef); /*Fx 3.6-15*/
-background: linear-gradient(top left, #0b4f6c, #01baef); /*Standard*/
-  color: white;
+  background: -webkit-linear-gradient(top left,#0b4f6c,#01baef); /*Safari 5.1-6*/
+  background: -o-linear-gradient(top left,#0b4f6c,#01baef); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(top left,#0b4f6c,#01baef); /*Fx 3.6-15*/
+  background: linear-gradient(top left, #0b4f6c, #01baef); /*Standard*/
+  color: #ffffff;
 }
 
-.background {
+.jumbotron {
+  background: #0b4f6c; /* Old Browsers */
+  background: -webkit-linear-gradient(top left,#0b4f6c,#01baef); /*Safari 5.1-6*/
+  background: -o-linear-gradient(top left,#0b4f6c,#01baef); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(top left,#0b4f6c,#01baef); /*Fx 3.6-15*/
+  background: linear-gradient(top left, #0b4f6c, #01baef); /*Standard*/
+  color: #ffffff;
+}
+
+.btn {
+  background: #01baef;
+}
+
+.btn a:hover {
+  background: #0b4f6c;
+}
+
+.section {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.slideshow {
+  max-width: 40%;
+  min-width: 40%;
   align-content: center;
   align-items: center;
 }
 
-h1 {
-  color: #ffffff;
+#footer {
+  background: #01baef; /* Old Browsers */
+  background: -webkit-linear-gradient(bottom right,#01baef,#0b4f6c); /*Safari 5.1-6*/
+  background: -o-linear-gradient(bottom right,#01baef,#0b4f6c); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(bottom right,#01baef,#0b4f6c); /*Fx 3.6-15*/
+  background: linear-gradient(bottom right, #01baef, #0b4f6c); /*Standard*/
+}
+
+.header {
+  font-family: 'SanFranciscoText-Heavy', serif;
 }
