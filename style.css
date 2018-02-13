@@ -65,6 +65,10 @@ li a:hover {
   background: #0b4f6c;
 }
 
+.off-white {
+  background: #fbfbff;
+}
+
 .section {
   padding-left: 10px;
   padding-right: 10px;
@@ -78,13 +82,17 @@ li a:hover {
 }
 
 #footer {
-  background: #01baef; /* Old Browsers */
-  background: -webkit-linear-gradient(bottom right,#01baef,#0b4f6c); /*Safari 5.1-6*/
-  background: -o-linear-gradient(bottom right,#01baef,#0b4f6c); /*Opera 11.1-12*/
-  background: -moz-linear-gradient(bottom right,#01baef,#0b4f6c); /*Fx 3.6-15*/
-  background: linear-gradient(bottom right, #01baef, #0b4f6c); /*Standard*/
+  background: #0b4f6c;
+  color: #ffffff;
 }
 
 .header {
   font-family: 'SanFranciscoText-Heavy', serif;
+}
+
+.thanks {
+  text-align: center;
+  font-family: 'SanFranciscoText-Heavy', serif;
+  background: #0b4f6c;
+  color: #ffffff;
 }
