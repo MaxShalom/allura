@@ -39,13 +39,20 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+.navbar-button a:hover {
   background: #0b4f6c; /* Old Browsers */
   background: -webkit-linear-gradient(top left,#0b4f6c,#01baef); /*Safari 5.1-6*/
   background: -o-linear-gradient(top left,#0b4f6c,#01baef); /*Opera 11.1-12*/
   background: -moz-linear-gradient(top left,#0b4f6c,#01baef); /*Fx 3.6-15*/
   background: linear-gradient(top left, #0b4f6c, #01baef); /*Standard*/
   color: #ffffff;
+  border-radius: 3px;
+}
+
+.navbar-drop-button a:hover {
+  background: #ffffff;
+  color: #000000;
+  text-decoration: overline;
 }
 
 .jumbotron {
@@ -81,7 +88,7 @@ li a:hover {
   align-items: center;
 }
 
-#footer {
+.footer {
   background: #0b4f6c;
   color: #ffffff;
 }
@@ -90,9 +97,21 @@ li a:hover {
   font-family: 'SanFranciscoText-Heavy', serif;
 }
 
+.footer-text {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.map {
+  max-width: 100%;
+}
+
 .thanks {
   text-align: center;
   font-family: 'SanFranciscoText-Heavy', serif;
-  background: #0b4f6c;
   color: #ffffff;
+}
+
+.thanks a {
+  color: #0b4f6c
+
 }
