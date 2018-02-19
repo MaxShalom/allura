@@ -17,9 +17,9 @@
 </head>
 <body>
 
-  <div>
+  <div id="navbar">
     <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
-        <nav class="uk-navbar-container navbar borderYtoX" uk-navbar style="position: relative; z-index: 980;">
+        <nav class="uk-navbar-container navbar" uk-navbar style="position: relative; z-index: 980;">
             <div class="uk-navbar-left">
 
                 <ul class="uk-navbar-nav">
@@ -28,11 +28,11 @@
                         <a href="#">Licenses</a>
                         <div class="uk-navbar-dropdown">
                             <ul class="uk-nav uk-navbar-dropdown-nav">
-                              <li class="navbar-drop-button"><a href="#">Active</a></li>
+                              <li class="navbar-button"><a href="#">Active</a></li>
                               </br>
-                              <li class="navbar-drop-button"><a href="#">Item</a></li>
+                              <li class="navbar-button"><a href="#">Item</a></li>
                               </br>
-                              <li class="navbar-drop-button"><a href="#">Item</a></li>
+                              <li class="navbar-button"><a href="#">Item</a></li>
                             </ul>
                         </div>
                     </li>
@@ -46,12 +46,12 @@
 
   <div class="jumbotron jumbotron-fluid">
     <div class="container-fluid">
-      <h1 class="display-4">Allura Imports Inc.</h1>
-      <p class="lead">
+      <h1 class="header">Allura Imports Inc.</h1>
+      <p class="lead-in">
         Since 1957
       </p>
       <hr class="my-4">
-      <p>
+      <p class="open-sans">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit,
         sed do eiusmod tempor incididunt ut labore et dolore magna
         aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -68,25 +68,24 @@
   </div>
 
   <div class="section">
-    <hr class="uk-divider-icon">
 
     <div class="uk-child-width-1-2@m uk-grid-small uk-grid-match" uk-grid>
       <div class="uk-card uk-card-body off-white">
-            <h3 class="uk-card-title header">Experience</h3>
-            <p class="uk-text-large">
-              Since 1957, Allura Imports Inc. has been dedicated to
-              creating quality fashion for children at the best value.
-            </p>
-        </div>
-      <div class="uk-position-relative uk-visible-toggle uk-light uk-width-auto slideshow" uk-slideshow="animation: push autoplay: true; min-height: 200; max-height: 400">
+        <h3 class="uk-card-title header">Experience</h3>
+        <p class="uk-text-large">
+          Since 1957, Allura Imports Inc. has been dedicated to
+          creating quality fashion for children at the best value.
+        </p>
+      </div>
+      <div class="uk-position-relative uk-visible-toggle uk-light" uk-slideshow="min-height: 300; max-height: 600; animation: push">
 
         <ul class="uk-slideshow-items">
-            <li>
-                <img src="assets/home/baby.jpg" alt="" uk-cover>
-            </li>
-            <li>
-                <img src="assets/home/enyce.jpg" alt="" uk-cover>
-            </li>
+          <li>
+              <img src="assets/home/baby.jpg" alt="Baby" uk-cover>
+          </li>
+          <li>
+              <img src="assets/home/enyce.jpg" alt="ENYCE" uk-cover>
+          </li>
         </ul>
 
         <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
@@ -95,11 +94,10 @@
       </div>
     </div>
 
-   
-
     <hr class="uk-divider-icon">
 
     <div class="uk-child-width-1-2@m uk-grid-small uk-grid-match" uk-grid>
+
       <div class="uk-card uk-card-body off-white">
         <h3 class="uk-card-title header">Fun Fashion for Kids of All Ages</h3>
         <p class="uk-text-large">
@@ -107,27 +105,27 @@
           our products can be found at various retailers worldwide.
         </p>
       </div>
-      <div class="uk-position-relative uk-visible-toggle uk-light uk-width-auto slideshow" uk-slideshow="animation: push; autoplay: true; min-height: 200; max-height: 400">
 
+      <div class="uk-position-relative uk-visible-toggle uk-light" uk-slideshow="min-height: 300; max-height: 600; animation: push">
         <ul class="uk-slideshow-items">
-            <li>
-                <img src="assets/brands/slideshow/apple.png" alt="Apple Bottoms">
-            </li>
-            <li>
-                <img src="assets/brands/slideshow/enyce.png" alt="ENYCE">
-            </li>
-            <li>
-                <img src="assets/brands/slideshow/duck.png" alt="Duck Duck Goose">
-            </li>
-            <li>
-                <img src="assets/brands/slideshow/duck2.png" alt="Duck Duck Goose 2">
-            </li>
-            <li>
-                <img src="assets/brands/slideshow/dollhouse.png" alt="Dollhouse">
-            </li>
-            <li>
-                <img src="assets/brands/slideshow/bhpc.png" alt="Beverly Hills Polo Club">
-            </li>
+          <li>
+              <img src="assets/brands/slideshow/apple.png" alt="Apple Bottoms">
+          </li>
+          <li>
+              <img src="assets/brands/slideshow/enyce.png" alt="ENYCE">
+          </li>
+          <li>
+              <img src="assets/brands/slideshow/duck.png" alt="Duck Duck Goose">
+          </li>
+          <li>
+              <img src="assets/brands/slideshow/duck2.png" alt="Duck Duck Goose 2">
+          </li>
+          <li>
+              <img src="assets/brands/slideshow/dollhouse.png" alt="Dollhouse">
+          </li>
+          <li>
+              <img src="assets/brands/slideshow/bhpc.png" alt="Beverly Hills Polo Club">
+          </li>
         </ul>
 
         <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
@@ -135,24 +133,17 @@
 
       </div>
     </div>
-  </div>
 
   <div class="uk-section uk-section-secondary uk-section-small">
     <div class="uk-container">
-      <div class="uk-grid-large uk-flex-middle" uk-grid>
-        <div class="uk-width-expand">
           <p class="uk-text-large">
             <strong>Unbeatable Prices</strong>
             </br>
-            We offer various collections for children of all ages. 
-            From newborn up to sizes 7-16 in girls and 8-18 in boys, 
-            we have the fashion that our customers crave at a cost that can't be beat. 
+            We offer various collections for children of all ages.
+            From newborn up to sizes 7-16 in girls and 8-18 in boys,
+            we have the fashion that our customers crave at a cost that can't be beat.
           </p>
-        </div>
-        <div class="uk-width-auto">
           <a class="uk-button uk-button-primary uk-button-large" href="contact.html">Set up an Appointment</a>
-        </div>
-      </div>
     </div>
   </div>
 
@@ -163,32 +154,49 @@
           <div class="uk-panel uk-light uk-margin-medium header">
               <h3>Allura Imports Inc.</h3>
           </div>
-
-          <div class="uk-grid-match uk-child-width-expand@m" uk-grid>
-              <div>
-                  <div class="uk-card uk-card-default uk-card-body">
-                    <p class="uk-text-large footer-text">
-                      1407 Broadway, Suite 401 </br>
-                      New York, New York 10018 </br>
-                      P: <a href="tel:2126954510">212 695 4510</a></br>
-                      F: <a href="tel:2129474195">212 947 4195</a></br>
-                    </p>
-                  </div>
-              </div>
-              <div>
-                  <div class="uk-card uk-card-default uk-card-body">
-                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.391864999524!2d-73.98983088461067!3d40.75340517932742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259ab9df6e6c3%3A0xcacb95de84e62fa5!2s1407+Broadway%2C+New+York%2C+NY+10018!5e0!3m2!1sen!2sus!4v1518559607446" width="500" height="300" frameborder="0" style="border:0" allowfullscreen>
-                    </iframe>
-                  </div>
+          <hr class="uk-divider-small">
+          </br>
+          <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
+          <div>
+              <div class="uk-card uk-card-default uk-card-body uk-card-hover">
+                  <p>1407 Broadway, Suite 401 </br>
+                    New York, New York 10018 </br>
+                    P: <a href="tel:2126954510">212 695 4510</a></br>
+                    F: <a href="tel:2129474195">212 947 4195</a></br></p>
               </div>
           </div>
-          </br>
-          </br>
-          <p class="thanks">Designed and made by <a href="https://github.com/MaxShalom">Max Shalom</a></p>
+          <div>
+              <div class="uk-card uk-card-default uk-card-body uk-card-hover">
+                  <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.391864999524!2d-73.98983088461067!3d40.75340517932742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259ab9df6e6c3%3A0xcacb95de84e62fa5!2s1407+Broadway%2C+New+York%2C+NY+10018!5e0!3m2!1sen!2sus!4v1518559607446" width="400" height="240" frameborder="0" style="border:0" allowfullscreen>
+                  </iframe>
+              </div>
+          </div>
+          <div>
+              <div class="uk-card uk-card-default uk-card-body uk-card-hover">
+                  <h3 class="uk-card-title">Email Newsletter</h3>
+                  <p>A curated list of the best programming style guides on the web 
+                    for many different languages.
+                 </p>
+                 <form>
+                    <div class="uk-margin">
+                        <div class="uk-inline">
+                            <span class="uk-form-icon" uk-icon="icon: mail">
+                </span>
+                            <input class="uk-input" type="text" placeholder="Email">
+                        </div>
+                    </div>
+                </form>
+              </div>
+          </div>
         </div>
+        </br>
+        <p class="thanks">Designed and made by <a href="https://github.com/MaxShalom">Max Shalom</a></p>
+      </div>
       </div>
     </footer>
-  
+
+   
+
 
   <!-- UIkit JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.38/js/uikit.min.js"></script>

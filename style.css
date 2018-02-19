@@ -6,6 +6,12 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.open-sans {
+  font-family: 'Open Sans', sans-serif;
 }
 
 .navbar {
@@ -40,19 +46,9 @@ li a {
 }
 
 .navbar-button a:hover {
-  background: #0b4f6c; /* Old Browsers */
-  background: -webkit-linear-gradient(top left,#0b4f6c,#01baef); /*Safari 5.1-6*/
-  background: -o-linear-gradient(top left,#0b4f6c,#01baef); /*Opera 11.1-12*/
-  background: -moz-linear-gradient(top left,#0b4f6c,#01baef); /*Fx 3.6-15*/
-  background: linear-gradient(top left, #0b4f6c, #01baef); /*Standard*/
-  color: #ffffff;
-  border-radius: 3px;
-}
-
-.navbar-drop-button a:hover {
   background: #ffffff;
   color: #000000;
-  text-decoration: overline;
+  text-decoration: underline;
 }
 
 .jumbotron {
@@ -62,6 +58,15 @@ li a {
   background: -moz-linear-gradient(top left,#0b4f6c,#01baef); /*Fx 3.6-15*/
   background: linear-gradient(top left, #0b4f6c, #01baef); /*Standard*/
   color: #ffffff;
+  min-height: 500px;
+  align-content: center;
+  vertical-align: -webkit-baseline-middle;
+  vertical-align: middle;
+}
+
+.lead-in {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
 }
 
 .btn {
@@ -74,6 +79,9 @@ li a {
 
 .off-white {
   background: #fbfbff;
+  padding-left: 0px;
+  margin-left:0 auto;
+  margin-right:0 auto;
 }
 
 .section {
@@ -81,16 +89,12 @@ li a {
   padding-right: 10px;
 }
 
-.slideshow {
-  max-width: 40%;
-  min-width: 40%;
-  align-content: center;
-  align-items: center;
-}
-
-.footer {
+footer {
   background: #0b4f6c;
   color: #ffffff;
+  margin: 0%;
+  padding-left: 0%;
+  padding-right: 0%;
 }
 
 .header {
