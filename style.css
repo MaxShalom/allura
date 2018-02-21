@@ -84,9 +84,10 @@ li a {
   margin-right:0 auto;
 }
 
-.section {
+.secondary {
   padding-left: 10px;
   padding-right: 10px;
+  background-color: #0b4f6c;
 }
 
 footer {
