@@ -1,7 +1,7 @@
 @font-face {
   font-family: SanFranciscoText-Heavy;
   font-weight: heavy;
-  src: url("assets/SanFranciscoText-Heavy.otf") format("opentype");
+  src: url("brands/assets/SanFranciscoText-Heavy.otf") format("opentype");
 }
 
 body {
