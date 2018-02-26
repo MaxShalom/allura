@@ -14,6 +14,9 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"
   integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
   crossorigin="anonymous">
+  <!-- CSS Animations -->
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <!-- Favicons -->
   <link rel="apple-touch-icon" sizes="180x180" href="brands/assets/icons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="brands/assets/icons/favicon-32x32.png">
@@ -55,7 +58,7 @@
 
   <div class="jumbotron jumbotron-fluid">
     <div class="container-fluid">
-      <img class="logo" align="top" src="brands/assets/allura-white.png" alt="Allura" width="400px">
+      <img class="logo animated fadeInLeft" align="top" src="brands/assets/allura-white.png" alt="Allura" width="400px">
       <hr class="my-4">
       <p class="open-sans">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit,
@@ -178,9 +181,9 @@
                   </iframe>
               </div>
           </div>
-          <div>
+         <div>
               <div class="uk-card uk-card-default uk-card-body uk-card-hover">
-                  <h3 class="uk-card-title">Email Newsletter</h3>
+                  <!--<h3 class="uk-card-title">Email Newsletter</h3>
                   <p>A curated list of the best programming style guides on the web 
                     for many different languages.
                  </p>
@@ -193,8 +196,10 @@
                         </div>
                     </div>
                 </form>
-              </div>
+              </div>-->
+              <form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://tinyletter.com/allura" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/allura', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail">Enter your email address</label></p><p><input type="text" style="width:140px" name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /><p><a href="https://tinyletter.com" target="_blank">powered by TinyLetter</a></p></form>
           </div>
+         
         </div>
         </br>
         <p class="thanks">Designed and made by <a href="https://github.com/MaxShalom">Max Shalom</a></p>
