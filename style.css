@@ -8,47 +8,23 @@ body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   padding: 0;
+  padding-top: 10px;
 }
 
 .open-sans {
   font-family: 'Open Sans', sans-serif;
 }
 
-.navbar {
-  z-index: 9;
+.navbar-home {
+  z-index: 100;
+  position: fixed;
+  top: 0; 
   width: 100%;
-  background: #fbfbff;
-  padding-left: 0px;
-  padding-right: 0px;
-  padding-top: 0px;
-  padding-bottom: 0px;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  width: 100%;
-  text-align: left;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.navbar-button a:hover {
-  background: #ffffff;
-  color: #000000;
-  text-decoration: underline;
+.nav-line {
+  background-color: #0b4f6c;
+  height: 20px;
 }
 
 .jumbotron {
@@ -90,7 +66,22 @@ li a {
   background-color: #0b4f6c;
 }
 
-footer {
+.l-edge-pad{
+  padding-left: 0px;
+  padding-right: 10px;
+}
+
+.img-pad {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.r-edgepad {
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.footer {
   background: #0b4f6c;
   color: #ffffff;
   margin: 0%;
@@ -108,15 +99,30 @@ footer {
 
 .map {
   max-width: 100%;
+  min-height: 100%;
 }
 
-.thanks {
+.email-box {
+  min-width: 100%;
+}
+.news-button {
+  background-color: #01baef;
+  border-radius: 3px;
+}
+
+.max-thanks {
   text-align: center;
   font-family: 'SanFranciscoText-Heavy', serif;
   color: #ffffff;
 }
 
-.thanks a {
-  color: #0b4f6c
+.max-thanks a {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+.max-thanks a:hover {
+  color: #01baef;
+  text-decoration: underline;
 
 }
