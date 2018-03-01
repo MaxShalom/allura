@@ -4,23 +4,36 @@
   src: url("assets/SanFranciscoText-Heavy.otf") format("opentype");
 }
 
-.header {
+.top-header {
   background: #017ead; /* Old Browsers */
   background: -webkit-linear-gradient(top left,#017ead,#09178e); /*Safari 5.1-6*/
   background: -o-linear-gradient(top left,#017ead,#09178e); /*Opera 11.1-12*/
   background: -moz-linear-gradient(top left,#017ead,#09178e); /*Fx 3.6-15*/
-  background: linear-gradient(top left, #017ead, #09178e); /*Standard*/
+  background: linear-gradient(top left, #017ead, #09168e); /*Standard*/
   font-family: 'SanFranciscoText-Heavy', serif;
   text-align: center;
   min-width: 100%;
   min-height: 500px;
   color: #ffffff;
   vertical-align: middle;
-  line-height: 500px; /* the same as your div height */
+  line-height: 500px; 
+}
+
+.header {
+  font-family: SanFranciscoText-Heavy;
 }
 
 h1 {
   font-family: 'SanFranciscoText-Heavy', serif;
+}
+
+.card-and-slides {
+  padding-bottom: 15px;
+}
+
+.map {
+  max-width: 100%;
+  min-height: 100%;
 }
 
 #footer {
@@ -33,15 +46,22 @@ h1 {
 
 .map {
   max-width: 100%;
+  min-height: 100%;
 }
 
-.thanks {
+.max-thanks {
   text-align: center;
   font-family: 'SanFranciscoText-Heavy', serif;
   color: #ffffff;
 }
 
-.thanks a {
-  color: #0b4f6c
+.max-thanks a {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+.max-thanks a:hover {
+  color: #01baef;
+  text-decoration: underline;
 
 }
