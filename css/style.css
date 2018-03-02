@@ -1,7 +1,7 @@
 @font-face {
   font-family: SanFranciscoText-Heavy;
   font-weight: heavy;
-  src: url("brands/assets/SanFranciscoText-Heavy.otf") format("opentype");
+  src: url("SanFranciscoText-Heavy.otf") format("opentype");
 }
 
 body {
@@ -64,21 +64,6 @@ body {
   padding-left: 10px;
   padding-right: 10px;
   background-color: #0b4f6c;
-}
-
-.l-edge-pad{
-  padding-left: 0px;
-  padding-right: 10px;
-}
-
-.img-pad {
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.r-edgepad {
-padding-left: 10px;
-padding-right: 10px;
 }
 
 .footer {
