@@ -1,0 +1,56 @@
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.land {
+  /*background: #0a2463; 
+  background: -webkit-linear-gradient(top right,#0a2463,#046CE9);
+  background: -o-linear-gradient(top right,#0a2463,#046CE9); 
+  background: -moz-linear-gradient(top right,#0a2463,#046CE9); 
+  background: linear-gradient(top right, #0a2463, #046CE9); */
+  background-image: url("assets/ny-bw.jpg");
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.quote {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #01baef;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 30px;
+  color: white;
+}
+
+.home-images {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.brands {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#brands {
+  text-align: left;
+  font-size: 42px;
+}
+
+.horizontal-line {
+  height: 20px;
+  width: 200px;
+  background: #0a2463; /* Old Browsers */
+  background: -webkit-linear-gradient(top right,#0a2463,#046CE9); /*Safari 5.1-6*/
+  background: -o-linear-gradient(top right,#0a2463,#046CE9); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(top right,#0a2463,#046CE9); /*Fx 3.6-15*/
+  background: linear-gradient(top right, #0a2463, #046CE9); /*Standard*/
+}
