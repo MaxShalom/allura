@@ -3,16 +3,20 @@ body {
 }
 
 .land {
-  /*background: #0a2463; 
+  background: #0a2463; 
   background: -webkit-linear-gradient(top right,#0a2463,#046CE9);
   background: -o-linear-gradient(top right,#0a2463,#046CE9); 
   background: -moz-linear-gradient(top right,#0a2463,#046CE9); 
-  background: linear-gradient(top right, #0a2463, #046CE9); */
-  background-image: url("assets/ny-bw.jpg");
+  background: linear-gradient(top right, #0a2463, #046CE9); 
+  /*background-image: url("assets/ny-bw.jpg");*/
   padding-left: 200px;
   padding-right: 200px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  min-width: 100%;
+  min-height: 300px;
+  text-align: center;
+  color: white;
 }
 
 .quote {
@@ -22,8 +26,9 @@ body {
   padding-bottom: 50px;
   background-color: #01baef;
   font-family: 'Work Sans', sans-serif;
-  font-size: 30px;
+  font-size: 24px;
   color: white;
+  min-width: 100%;
 }
 
 .home-images {
