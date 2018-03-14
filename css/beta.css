@@ -9,12 +9,12 @@ body {
   background: -moz-linear-gradient(top right,#0a2463,#046CE9); 
   background: linear-gradient(top right, #0a2463, #046CE9); 
   /*background-image: url("assets/ny-bw.jpg");*/
-  padding-left: 200px;
-  padding-right: 200px;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 20%;
+  padding-bottom: 15%;
   min-width: 100%;
-  min-height: 300px;
+  max-width: 100%;
   text-align: center;
   color: white;
 }
@@ -50,6 +50,12 @@ body {
   font-size: 42px;
 }
 
+.card {
+  border-radius: 2px;
+  width: 350px;
+  height: 300px;
+}
+
 .horizontal-line {
   height: 20px;
   width: 200px;
@@ -58,4 +64,33 @@ body {
   background: -o-linear-gradient(top right,#0a2463,#046CE9); /*Opera 11.1-12*/
   background: -moz-linear-gradient(top right,#0a2463,#046CE9); /*Fx 3.6-15*/
   background: linear-gradient(top right, #0a2463, #046CE9); /*Standard*/
+}
+
+.horizontal-line-white {
+  background-color: white;
+  height: 20px;
+  width: 200px;
+}
+
+#footer {
+  background-color: #046CE9;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.footer-title {
+  font-size: 36px;
+  color: white;
+  padding-right: 30px;
+}
+
+.footer-card {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  /*background-color: white*/
+}
+
+.thanks {
+  color: white;
+  text-align: center;
 }

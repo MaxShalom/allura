@@ -43,7 +43,7 @@
       </div>
   </nav>
 
-  <div class="land">
+  <div class="land" id="particles-js">
     <img src="assets/allura-white.png" alt="Allura">
     <h2>Since 1959</h2>
   </div>
@@ -105,6 +105,61 @@
     </div>
   </div>
 
+  <div id="footer">
+    <br>
+    <h1 class="footer-title">
+      Allura Imports Inc.
+    </h1>
+    <hr align="left" class="horizontal-line-white">
+    <br>
+    <div class="columns has-text-left-mobile">
+      <div class="column footer-card">
+          <div class="card">
+            <header class="card-header">
+              <p class="card-header-title">
+                About
+              </p>
+            </header>
+            <div class="card-content">
+              <div class="content">
+                  1407 Broadway, Suite 401 <br>
+                  New York, New York 10018 <br>
+                  P: <a href="tel:2126954510">212 695 4510</a></br>
+                  F: <a href="tel:2129474195">212 947 4195</a></br>
+              </div>
+            </div>
+          </div>
+        </div>
+      <div class="column footer-card">
+          <div class="card">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.391864999524!2d-73.98983088461067!3d40.75340517932742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259ab9df6e6c3%3A0xcacb95de84e62fa5!2s1407+Broadway%2C+New+York%2C+NY+10018!5e0!3m2!1sen!2sus!4v1518559607446" width="350" height="300" frameborder="0" style="border:0" allowfullscreen>
+            </iframe>
+          </div>
+      </div>
+      <div class="column footer-card">
+          <p>
+              <h3>Email Newsletter</h3>
+              <p>Sign up for the Allura newsletter and hear from us when we have news.
+             </p>
+            <form method="post" onsubmit="window.open('https://tinyletter.com/allura', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"></form>
+              <div class="uk-inline">
+                <span class="uk-form-icon" uk-icon="icon: mail"></span>
+                <input type="text" class="uk-input email-box" style="width:100%" placeholder="Email" name="email" id="tlemail" />
+              </div>
+              <br>
+              <br>
+              <input type="hidden" value="1" name="embed"/>
+              <input class="btn btn-primary" type="submit" value="Subscribe" />
+            </form>
+          </p>
+      </div>
+    </div>
+    <br>
+    <p class="thanks has-text-weight-bold"><a href="http://maxshalom.me"></a></p>
+    <br>
+  </div>
+
+
   <script>
     document.addEventListener('DOMContentLoaded', function () {
 
@@ -130,6 +185,13 @@
       });
     }
 
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.js"></script>
+  <script>
+    /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+    particlesJS.load('particles-js', 'assets/particles.json', function() {
+      console.log('callback - particles.js config loaded');
     });
   </script>
 </body>
