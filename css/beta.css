@@ -3,20 +3,17 @@ body {
 }
 
 .land {
-  background: #0a2463; 
+  /*background: #0a2463; 
   background: -webkit-linear-gradient(top right,#0a2463,#046CE9);
   background: -o-linear-gradient(top right,#0a2463,#046CE9); 
   background: -moz-linear-gradient(top right,#0a2463,#046CE9); 
-  background: linear-gradient(top right, #0a2463, #046CE9); 
-  /*background-image: url("assets/ny-bw.jpg");*/
-  padding-left: 20%;
-  padding-right: 20%;
-  padding-top: 20%;
-  padding-bottom: 15%;
-  min-width: 100%;
-  max-width: 100%;
+  background: linear-gradient(top right, #0a2463, #046CE9);*/
+  background-image: url("assets/ny-bw.jpg");
   text-align: center;
-  color: white;
+}
+
+.since-1959 {
+  font-size: 100%
 }
 
 .quote {
@@ -39,15 +36,15 @@ body {
 }
 
 .brands {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
 #brands {
   text-align: left;
-  font-size: 42px;
+  font-size: 36px;
 }
 
 .card {
@@ -76,16 +73,7 @@ body {
   background-color: #046CE9;
   padding-left: 5%;
   padding-right: 5%;
-}
-
-.footer-title {
-  font-size: 36px;
-  color: white;
-  padding-right: 30px;
-}
-
-.footer-card {
-  min-width: 300px;
+  max-width: 100%;
 }
 
 .map {
@@ -100,6 +88,7 @@ body {
 }
 
 .thanks {
-  color: white;
+  color: black;
   text-align: center;
+  padding-bottom: 0px;
 }
