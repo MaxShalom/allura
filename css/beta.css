@@ -3,12 +3,11 @@ body {
 }
 
 .land {
-  /*background: #0a2463; 
+  background: #0a2463; 
   background: -webkit-linear-gradient(top right,#0a2463,#046CE9);
   background: -o-linear-gradient(top right,#0a2463,#046CE9); 
   background: -moz-linear-gradient(top right,#0a2463,#046CE9); 
-  background: linear-gradient(top right, #0a2463, #046CE9);*/
-  background-image: url("assets/ny-bw.jpg");
+  background: linear-gradient(top right, #0a2463, #046CE9);
   text-align: center;
 }
 
@@ -71,8 +70,8 @@ body {
 
 #footer {
   background-color: #046CE9;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
   max-width: 100%;
 }
 
