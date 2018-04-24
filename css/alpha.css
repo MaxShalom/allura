@@ -1,0 +1,13 @@
+p {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 19px;
+}
+
+.my-header {
+  font-family: 'Work Sans', sans-serif;
+  color: white;
+}
+
+.fixed-up {
+  position: fixed;
+}
