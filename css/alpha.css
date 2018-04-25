@@ -6,8 +6,18 @@ p {
 .my-header {
   font-family: 'Work Sans', sans-serif;
   color: white;
+  font-weight: 800;
 }
 
 .fixed-up {
   position: fixed;
+}
+
+.brands {
+  font-weight: 600;
+}
+
+.brand-set {
+  padding-left: 2%;
+  padding-right: 2%;
 }
