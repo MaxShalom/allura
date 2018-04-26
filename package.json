@@ -1,0 +1,22 @@
+{
+  "name": "allura",
+  "version": "1.0.0",
+  "description": "Website for Allura Imports Inc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo(\"testing...\")"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxShalom/allura.git"
+  },
+  "author": "Max Shalom",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/MaxShalom/allura/issues"
+  },
+  "homepage": "https://github.com/MaxShalom/allura#readme",
+  "dependencies": {
+    "tachyons": "^4.9.1"
+  }
+}
