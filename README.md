@@ -1,7 +1,11 @@
 # Allura
-Website for Allura Imports Inc. 
+Website for Allura Imports Inc.  
 
-I'm using Surge.sh to deploy to [allura.surge.sh](allura.surge.sh), [Tinyletter](https://tinyletter.com/) for the email newsletter and many web technologies including:
-1. [Bootstrap](https://getbootstrap.com/)
-2. [UIKit](https://getuikit.com/)
-3. [Animate.css](https://daneden.github.io/animate.css/)
+**[View Site](https://allurasite.firebaseapp.com/)**
+
+![](https://github.com/MaxShalom/allura/raw/master/assets/README/home.png)
+
+This website was built using many web technologies include the [Tachyons](http://tachyons.io/) and [Bulma](https://bulma.io/) front-end frameworks. Currently, I'm using [Firebase](https://firebase.google.com/?safe=active) to host at [https://allurasite.firebaseapp.com/](https://allurasite.firebaseapp.com/), which will be moved to alluraimports.com in the coming future. 
+
+For the contact form, I'm using [Formspree](https://formspree.io/) and for email newsletters, I'm using [CleverReach](https://www.cleverreach.com/en/).
+
