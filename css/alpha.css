@@ -1,79 +1,114 @@
-p {
-  font-family: 'Work Sans', sans-serif;
-  font-size: 19px;
+@font-face {
+  font-family: SanFranciscoText-Heavy;
+  font-weight: heavy;
+  src: url("SanFranciscoText-Heavy.otf") format("opentype");
 }
 
-.my-header {
-  font-family: 'Work Sans', sans-serif;
-  color: white;
-  font-weight: 800;
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  padding-top: 10px;
 }
 
-.logo {
-  max-width: 70px;
+.open-sans {
+  font-family: 'Open Sans', sans-serif;
 }
 
-.my-header-black {
-  font-family: 'Work Sans', sans-serif;
-  color: black;
-  font-weight: 800;
-}
-
-.fixed-up {
+.navbar-home {
+  z-index: 100;
   position: fixed;
-  padding-top: 0%;
+  top: 0; 
+  width: 100%;
 }
 
-.brands {
-  font-weight: 600;
-
+.nav-line {
+  background-color: #0b4f6c;
+  height: 20px;
 }
 
-.brand-set {
-  padding-left: 2%;
-  padding-right: 2%;
+.jumbotron {
+  background: #0b4f6c; /* Old Browsers */
+  background: -webkit-linear-gradient(top left,#0b4f6c,#01baef); /*Safari 5.1-6*/
+  background: -o-linear-gradient(top left,#0b4f6c,#01baef); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(top left,#0b4f6c,#01baef); /*Fx 3.6-15*/
+  background: linear-gradient(top left, #0b4f6c, #01baef); /*Standard*/
+  color: #ffffff;
+  min-height: 500px;
+  align-content: center;
+  vertical-align: -webkit-baseline-middle;
+  vertical-align: middle;
 }
 
-.nothing-container {
-  padding-top: 0px; 
-  padding-bottom: 0px;
-  padding-left: 0px; 
-  padding-right: 0px;
+.lead-in {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
 }
 
-.nothing-text { 
-  padding-left: 5%; 
-  padding-right: 5%; 
-  padding-top: 10px; 
-  padding-bottom: 10px; 
-  text-align: center;
+.btn {
+  background: #01baef;
 }
 
-.nothing-pic {
-  padding-top: 0px; 
-  padding-bottom: 0px;
-  height: 100%;
-  min-width: 50%;
+.btn a:hover {
+  background: #0b4f6c;
 }
-/*Contact Form*/
 
-.contact-form {
-  padding-left: 3%;
-  padding-right: 3%;
-  padding-top: 3%;
-  padding-bottom: 3%;
-  min-width: 50%; 
+.off-white {
+  background: #fbfbff;
+  padding-left: 0px;
+  margin-left:0 auto;
+  margin-right:0 auto;
+}
+
+.secondary {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #0b4f6c;
+}
+
+.footer {
+  background: #0b4f6c;
+  color: #ffffff;
+  margin: 0%;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+.header {
+  font-family: 'SanFranciscoText-Heavy', serif;
+}
+
+.footer-text {
+  font-family: 'Open Sans', sans-serif;
 }
 
 .map {
   max-width: 100%;
+  min-height: 100%;
+}
+
+.email-box {
   min-width: 100%;
 }
 
-.map-text {
-  min-width: 100%;
+.news-button {
+  background-color: #01baef;
+  border-radius: 3px;
 }
 
-.form-message {
-  min-height: 40%;
+.max-thanks {
+  text-align: center;
+  font-family: 'SanFranciscoText-Heavy', serif;
+  color: #ffffff;
+}
+
+.max-thanks a {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+.max-thanks a:hover {
+  color: #01baef;
+  text-decoration: underline;
+
 }
