@@ -64,6 +64,10 @@ p {
   padding-right: 10px;
   padding-left: 10px;
 }
+
+.mailing-list {
+  padding-left: 10px;
+}
 /*Contact Form*/
 
 .contact-form {
@@ -80,7 +84,7 @@ p {
 }
 
 .map-text {
-  min-width: 100%;
+  min-width: 75%;
 }
 
 .form-message {
