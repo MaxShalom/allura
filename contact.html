@@ -5,73 +5,152 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="theme-color" content="#333333">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600,800" rel="stylesheet"> 
   <link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" />
   <link rel="stylesheet" href="css/style.css">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-56943110-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-56943110-2');
+  </script>
+
+
+  <!-- HTML Meta Tags -->
   <title>Contact | Allura Imports Inc.</title>
+  <meta name="description" content="A children's clothing manufacturer based in New York City since 1959.">
+
+  <!-- Google / Search Engine Tags -->
+  <meta itemprop="name" content="Allura Imports Inc.">
+  <meta itemprop="description" content="A children's clothing manufacturer based in New York City since 1959.">
+  <meta itemprop="image" content="https://allurasite.firebaseapp.com/assets/ny-bw.jpg">
+
+  <!-- Facebook Meta Tags -->
+  <meta property="og:url" content="https://allurasite.firebaseapp.com">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Allura Imports Inc.">
+  <meta property="og:description" content="A children's clothing manufacturer based in New York City since 1959.">
+  <meta property="og:image" content="https://allurasite.firebaseapp.com/assets/ny-bw.jpg">
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Allura Imports Inc.">
+  <meta name="twitter:description" content="A children's clothing manufacturer based in New York City since 1959.">
+  <meta name="twitter:image" content="https://allurasite.firebaseapp.com/assets/ny-bw.jpg">
+
+  <!-- Meta Tags Generated via http://heymeta.com -->
+
 </head>
 <body>
-    <div id="form"></div>
-    
-    <div class="columns contact-form navy bg-lightest-blue">
-      <div class="column">
-        <h1 class="title">Contact Us</h1>
-        <p>The best way to see all that we have to offer is to set up a showroom appointment. 
-          To make an appointment with an experienced account executive you may reach us at the number below.</p>
-        <p>You can also send us a message through our website for customer inquiries or feedback. </p>
-        <br>
-        <div class="columns">
-          <div class="column">
-            <div class="map">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.394324295716!2d-73.98991628461067!3d40.753351079327395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259ab9df6e6c3%3A0xcacb95de84e62fa5!2s1407+Broadway%2C+New+York%2C+NY+10018!5e0!3m2!1sen!2sus!4v1525047245766" 
-              height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div>
-          </div>
-          <div class="column map-text">
-            <p><strong>Allura Imports Inc.</strong></p>
-            <br>
-            <p>1407 Broadway, Suite 401</p>
-            <p>New York, New York 10018</p>
-            <p>Phone: <a href="tel:2126954510">212 695 4510</a></p>
-            <p>Fax: 212 947 4195</p>
-          </div>
+  <header class="sans-serif bg-black-80">
+    <div class="cover bg-left bg-center-l" style="background-image: url(assets/ny-bw.jpg)">
+      <nav class="dt w-100 border-box pa3 ph5-ns">
+        <a class="dtc v-mid mid-gray link dim w-15" href="#" title="Home">
+          <img src="assets/allura.svg" class="dib h1" alt="Site Name">
+        </a>
+        <div class="dtc v-mid w-75 tr">
+          <a class="link dim dark-gray f6 f5-ns dib mr3 mr4-ns" href="#" title="About">Brands</a>
+          <a class="link dim dark-gray f6 f5-ns dib" href="#" title="Contact">Contact</a>
+        </div>
+      </nav>
+      <div class="pb5 pb6-m pb7-l">
+        <div class="tc-l mt4 mt5-m mt6-l ph3">
+          <h1 class="f1 my-header title-hero">Contact Us</h1>
+          <h2 class="fw1 f3 white-80 mt3 mb4"><strong style="color:white;">A children's clothing manufacturer based in New York City since 1959.</strong></h2>
+          <a class="f6 no-underline grow dib v-mid bg-blue white ba b--blue ph3 pv2 mb3" href="#mission">Learn more</a>
         </div>
       </div>
-      <div class="column">
-        <form accept-charset="UTF-8" action="https://usebasin.com/f/d3a499e0f8ba" method="POST">
-          <div class="measure">
-            <label for="name" class="f6 b db mb2 contact-item">Name </label>
-            <small id="name-desc" class="f6 black-60 db mb2">First and Last Name</small>
-            <input id="name" class="input-reset ba b--black-20 pa2 mb2 db w-100" type="text" name="name" placeholder="John Doe" aria-describedby="name-desc">
+    </div> 
+  </header>
+
+  <div id="contact"></div>
+
+  <div class="columns contact-form navy bg-lightest-blue">
+    <div class="column">
+      <h1 class="title">Contact Us</h1>
+      <p>The best way to see all that we have to offer is to set up a showroom appointment. 
+        To make an appointment with an experienced account executive you may reach us at the number below.</p>
+      <p>You can also send us a message through our website for customer inquiries or feedback. </p>
+      <br>
+      <div class="columns">
+        <div class="column">
+          <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.394324295716!2d-73.98991628461067!3d40.753351079327395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259ab9df6e6c3%3A0xcacb95de84e62fa5!2s1407+Broadway%2C+New+York%2C+NY+10018!5e0!3m2!1sen!2sus!4v1525047245766" 
+            height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
           </div>
+        </div>
+        <div class="column map-text">
+          <p><strong>Allura Imports Inc.</strong></p>
           <br>
-          <div class="measure">
-            <label for="name" class="f6 b db mb2 contact-item">Company </label>
-            <small id="name-desc" class="f6 black-60 db mb2">Optional</small>
-            <input id="subject" class="input-reset ba b--black-20 pa2 mb2 db w-100" type="text" name="company" placeholder="Allura Imports Inc." aria-describedby="name-desc">
-          </div>
-          <br>
-          <div class="measure">
-            <label for="name" class="f6 b db mb2 contact-item">Email </label>
-            <small id="name-desc" class="f6 black-60 db mb2">We'll get back to you as soon as possible.</small>
-            <input id="email" class="input-reset ba b--black-20 pa2 mb2 db w-100" type="email" name="email" placeholder="cs@alluraimports.com" aria-describedby="name-desc">
-          </div>
-          <br>
-          <div class="measure">
-            <label for="name" class="f6 b db mb2 contact-item">Subject </label>
-            <small id="name-desc" class="f6 black-60 db mb2">What are you contacting us about?</small>
-            <input id="subject" class="input-reset ba b--black-20 pa2 mb2 db w-100" type="text" name="subject" placeholder="Meeting" aria-describedby="name-desc">
-          </div>
-          <br>
-          <div class="measure">
-            <label for="name" class="f6 b db mb2 contact-item">Message </label>
-            <small id="name-desc" class="f6 black-60 db mb2">Tell us more</small>
-            <input id="message" class="input-reset ba b--black-20 pa2 mb2 db w-100 form-message" type="text" name="message" placeholder="I'd like to schedule a meeting..." aria-describedby="name-desc">
-          </div>
-          <br>
-          <input type="hidden" name="_gotcha">
-          <input class="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-navy b--navy" type="submit" value="Submit">
-        </form>
+          <p>1407 Broadway, Suite 401</p>
+          <p>New York, New York 10018</p>
+          <p>Phone: <a href="tel:2126954510">212 695 4510</a></p>
+          <p>Fax: 212 947 4195</p>
+        </div>
       </div>
     </div>
+    <div class="column">
+      <form accept-charset="UTF-8" action="https://usebasin.com/f/d3a499e0f8ba" method="POST">
+        <div class="measure">
+          <label for="name" class="f6 b db mb2 contact-item">Name </label>
+          <small id="name-desc" class="f6 black-60 db mb2">First and Last Name</small>
+          <input id="name" class="input-reset ba b--black-20 pa2 mb2 db w-100" type="text" name="name" placeholder="John Doe" aria-describedby="name-desc">
+        </div>
+        <div class="measure">
+          <label for="name" class="f6 b db mb2 contact-item">Company </label>
+          <small id="name-desc" class="f6 black-60 db mb2">Optional</small>
+          <input id="subject" class="input-reset ba b--black-20 pa2 mb2 db w-100" type="text" name="company" placeholder="Allura Imports Inc." aria-describedby="name-desc">
+        </div>
+        <div class="measure">
+          <label for="name" class="f6 b db mb2 contact-item">Email </label>
+          <small id="name-desc" class="f6 black-60 db mb2">We'll get back to you as soon as possible.</small>
+          <input id="email" class="input-reset ba b--black-20 pa2 mb2 db w-100" type="email" name="email" placeholder="cs@alluraimports.com" aria-describedby="name-desc">
+        </div>
+        <div class="measure">
+          <label for="name" class="f6 b db mb2 contact-item">Subject </label>
+          <small id="name-desc" class="f6 black-60 db mb2">What are you contacting us about?</small>
+          <input id="subject" class="input-reset ba b--black-20 pa2 mb2 db w-100" type="text" name="subject" placeholder="Meeting" aria-describedby="name-desc">
+        </div>
+        <div class="measure">
+          <label for="name" class="f6 b db mb2 contact-item">Message </label>
+          <small id="name-desc" class="f6 black-60 db mb2">Tell us more</small>
+          <input id="message" class="input-reset ba b--black-20 pa2 mb2 db w-100 form-message" type="text" name="message" placeholder="I'd like to schedule a meeting..." aria-describedby="name-desc">
+        </div>
+        <input type="hidden" name="_gotcha">
+        <input class="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-navy b--navy" type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+
+  <div class="pa4-l w-100 bg-dark-blue">
+    <form class="bg-dark-blue mw7 center pa4 br2-ns">
+      <fieldset class="cf bn ma0 pa0">
+        <legend class="pa0 f5 f4-ns mb3 title"><div class="white">Sign up for our newsletter</div></legend>
+        <div class="cf">
+          <label class="clip" for="email-address">Email Address</label>
+          <input class="f6 f5-l input-reset bn fl black-80 bg-white pa3 lh-solid w-100 w-75-m w-80-l " placeholder="Your Email Address" type="text" name="email-address" value="" id="email-address">
+          <input class="f6 f5-l button-reset fl pv3 tc bn bg-animate bg-black-70 hover-bg-black white pointer w-100 h-100 w-25-m w-20-l" type="submit" value="Subscribe">
+        </div>
+      </fieldset>
+    </form>
+  </div>
+
+  <footer class="ph3 ph4-ns pv6 btblack-70">
+    <p class="link b f3 f1-ns black-70 lh-solid">Allura Imports Inc.</p>
+    <p class="f3-ns">Since 1959</p>
+    <p class="f5"><br>
+      <a class="link black-80 hover-light-purple" href="/brands">Brands</a> /
+      <a class="link black-80 hover-blue" href="/contact">Contact </a> /
+      <a class="link black-80 hover-green" href="mailto:cs@alluraimports.com">cs@alluraimports.com </a>
+    </p>
+    <p class="f5">Website designed by <a class="link black-80 b hover-dark-blue" href="/contact">Max Shalom</a></p>
+  </footer>
+
+  
 </body>
 </html>
