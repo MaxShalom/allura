@@ -1,32 +1,33 @@
+body {
+  max-width: 100%;
+}
+
 p {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
 }
 
 .my-header {
-  font-family: 'Work Sans', sans-serif;
-  color: white;
-  font-weight: 800;
+  font-family: 'Cabin', sans-serif;
+  font-size: 4rem;
 }
 
 .my-header-black {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Cabin', sans-serif;
   color: black;
-  font-weight: 800;
-}
-
-.title-hero {
-  color: navy;
 }
 
 .brands-text {
-  font-weight: 700;
   padding-left: 2%;
 }
 
 .brand-set {
   padding-left: 2%;
   padding-right: 2%;
+}
+
+.brand-pic {
+  border-radius: 5px;
 }
 
 .nothing-container {
@@ -39,17 +40,28 @@ p {
 .nothing-text { 
   padding-left: 7%; 
   padding-right: 7%; 
-  padding-top: 10px; 
+  padding-top: 20px; 
   padding-bottom: 10px; 
   text-align: center;
 }
 
-.nothing-pic {
-  padding-top: 0px; 
-  padding-bottom: 0px;
-  height: 100%;
-  min-width: 50%;
-  max-height: 50%;
+.new-pic {
+  padding: 20px;
+  border-radius: 1.5rem;
+  width: 100%;
+}
+
+.line {
+  width: 33.3%;
+  background-color: darkblue;
+  height: 3px;
+  margin-left: 33.3%;
+  margin-right: 0%
+}
+
+.duck {
+  border-width: 2px;
+  border-color: black;
 }
 
 .newsletter {
@@ -77,4 +89,11 @@ p {
 
 .form-message {
   min-height: 40%;
+}
+
+/* Footer */
+
+.footer-pad {
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
