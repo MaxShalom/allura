@@ -7,9 +7,10 @@ p {
   font-size: 18px;
 }
 
-.head-img {
-  border-bottom-left-radius: 8% 3%;
-  border-bottom-right-radius: 8% 3%;
+textarea, input {
+  text-indent: 10px;
+  line-height: normal;
+  width: 100%;
 }
 
 ::selection {
