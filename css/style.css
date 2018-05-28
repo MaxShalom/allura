@@ -28,9 +28,26 @@ textarea, input {
   font-size: 4rem;
 }
 
-.my-header-black {
-  font-family: 'Cabin', sans-serif;
-  color: black;
+.mission-text { 
+  padding-left: 7%; 
+  padding-right: 7%; 
+  padding-top: 20px; 
+  padding-bottom: 10px; 
+  text-align: center;
+}
+
+.mission-pic {
+  padding: 20px;
+  border-radius: 1.5rem;
+  width: 100%;
+}
+
+.line {
+  width: 33.3%;
+  background-color: darkblue;
+  height: 3px;
+  margin-left: 33.3%;
+  margin-right: 0%
 }
 
 .brands-text {
@@ -47,43 +64,14 @@ textarea, input {
   border-radius: 5px;
 }
 
-.nothing-container {
-  padding-top: 0px; 
-  padding-bottom: 0px;
-  padding-left: 0px; 
-  padding-right: 0px;
-  max-width: 100%;
-}
-
-.nothing-text { 
-  padding-left: 7%; 
-  padding-right: 7%; 
-  padding-top: 20px; 
-  padding-bottom: 10px; 
-  text-align: center;
-}
-
-.new-pic {
-  padding: 20px;
-  border-radius: 1.5rem;
-  width: 100%;
-}
-
-.line {
-  width: 33.3%;
-  background-color: darkblue;
-  height: 3px;
-  margin-left: 33.3%;
-  margin-right: 0%
-}
-
 .duck {
   border-width: 2px;
   border-color: black;
 }
 
-.newsletter {
+.newsletter: input {
   padding-top: 0%;
+  height: 25px;
 }
 
 /*Contact Form*/
