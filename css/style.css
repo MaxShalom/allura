@@ -4,7 +4,6 @@ body {
 
 p {
   font-family: 'Raleway', sans-serif;
-  font-size: 18px;
 }
 
 textarea, input {
@@ -14,26 +13,27 @@ textarea, input {
 }
 
 ::selection {
-  background: #65afff; /* WebKit/Blink Browsers */
+  background: #689ed8; /* WebKit/Blink Browsers */
   color: white;
 }
 
 ::-moz-selection {
-  background: #65afff; /* Gecko Browsers */
+  background: #689ed8; /* Gecko Browsers */
   color: white;
 }
 
 .my-header {
   font-family: 'Cabin', sans-serif;
-  font-size: 4rem;
+  font-size: 5rem;
 }
 
 .mission-text { 
   padding-left: 7%; 
   padding-right: 7%; 
-  padding-top: 20px; 
+  padding-top: 1.5rem; 
   padding-bottom: 10px; 
   text-align: center;
+  font-size: 14px;
 }
 
 .mission-pic {
