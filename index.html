@@ -2,17 +2,18 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Allura</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" integrity="sha256-zIG416V1ynj3Wgju/scU80KAEWOsO5rRLfVyRDuOv7Q=" crossorigin="anonymous" />
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <div class="img-ny">
-    <nav class="navbar is-transparent t is-fixed-top darker">
+    <nav class="navbar is-transparent t is-fixed-top darker is-hidden-touch">
       <div id="navbarExampleTransparentExample" class="navbar-menu">
         <div class="navbar-start">
           <div class="navbar-item has-dropdown is-hoverable">
@@ -21,26 +22,19 @@
             </a>
             <div class="navbar-dropdown is-boxed">
               <a class="navbar-item" href="/documentation/overview/start/">
-                Overview
+                Enyce
               </a>
               <a class="navbar-item" href="https://bulma.io/documentation/modifiers/syntax/">
-                Modifiers
+                Delia's
               </a>
               <a class="navbar-item" href="https://bulma.io/documentation/columns/basics/">
-                Columns
+                Dollhouse
               </a>
               <a class="navbar-item" href="https://bulma.io/documentation/layout/container/">
-                Layout
+                Duck Duck Goose
               </a>
               <a class="navbar-item" href="https://bulma.io/documentation/form/general/">
-                Form
-              </a>
-              <hr class="navbar-divider">
-              <a class="navbar-item" href="https://bulma.io/documentation/elements/box/">
-                Elements
-              </a>
-              <a class="navbar-item is-active" href="https://bulma.io/documentation/components/breadcrumb/">
-                Components
+                Beverly Hills Polo Club
               </a>
             </div>
           </div>
@@ -71,12 +65,18 @@
       </div>
     </nav>
 
+    <!--<nav class="is-hidden-desktop darker is-fixed-top di">
+      
+    </nav> -->
+    
+
     <section class="hero is-medium">
       <div class="hero-body">
-        <div class="container is-size-1-mobile is-size-1">
+        <div class="container is-size-2-mobile is-size-1">
           <h1 class="title white b">
-            <br>
-            <br>
+            <div class="is-hidden-mobile">
+              <br>
+            </div>
             Allura  
             <br> 
             Imports Inc.
@@ -123,33 +123,67 @@
     </div>
   </div>
 
-  <section class="section bt b--black-10">
+  <h1 class="black pl3">Licenses</h1>
+  <hr class="bg-b">
+
+  <div class="columns" data-aos="zoom-in-left">
+    <div class="column">
+      <img src="assets/brands/bhpc.png">
+    </div>
+    <div class="column">
+      <img src="assets/brands/delias.png">
+    </div>
+    <div class="column">
+      <img src="assets/brands/dollhouse.png">
+    </div>
+  </div>
+
+  <div class="columns" data-aos="zoom-in-right">
+    <div class="column">
+      <img src="assets/brands/enyce.png">
+    </div>
+    <div class="column">
+      <img src="assets/brands/delias-girl.png">
+    </div>
+    <div class="column b--black-10">
+      <img class="ba b--black" src="assets/brands/duck.png">
+    </div>
+  </div>
+
+  <section class="section bt b--black-10 white bg-blue">
     <div class="container">
-      <h1 class="is-size-3">You're missing out!</h1>
-      <h2 class="subtitle">
-        Sign up for our newsletter:
-      </h2>
-      <form>
-        <div class="control di">
-          <input class="input" type="text" placeholder="Email"> 
-          <button class="button grad b white">Submit</button>
-        </div>
-      </form>
+      <div class="has-text-centered">
+        <h1 class="is-size-3">You're missing out!</h1>
+        <h2 class="subtitle white">
+          Sign up for our newsletter:
+        </h2>
+        <form>
+          <div class="control di">
+            <input class="input big-width " type="text" placeholder="Email">
+            <p class="control pt-10 has-text-centered">
+              <a class="button grad b white" href="">
+                <span>Submit</span>
+              </a>
+            </p>
+          </div>
+        </form>
+      </div>
     </div>
   </section>
 
-  <footer class="pa4 pa5-l black-70 bt b--black-10">
+  <footer class="pa4 black-70 bt b--black-10">
     <div class="mb4-l cf">
       <h1 class="w-100 pv0 ttu tracked mb4 is-size-2 blue">Allura Imports Inc.</h1>
       <article class="fl w-50 dib-ns w-auto-ns mr4-m mr5-l mb4 pr2 pr0-ns">
         <h4 class="f5 f4-l fw6 blue">NYC</h4>
-        <span class="f7 f6-l db black-70">837 Larkin St.</span>
-        <span class="f7 f6-l black-70">San Francisco, CA 94109 </span>
+        <span class="f7 f6-l db black-70">1407 Broadway</span>
+        <span class="f7 f6-l db black-70">Suite 401</span>
+        <span class="f7 f6-l black-70">New York, NY 10018 </span>
         <p>
         <a class="f6 db fw6 blue link dim" title="Call SF" href="tel:+12075555555">
-          +1 207-555-5555
+          +1 123-555-5555
         </a>
-        <a class="f6 db fw6 blue link dim" title="Call SF" href="tel:+12075555555">
+        <a class="f6 db fw6 blue link dim" title="Call SF" href="mailto:cs@alluraimports.com">
             cs@alluraimports.com
           </a>
         </p>
@@ -206,7 +240,7 @@
       </p>
     </div>
   </footer>
-
+  
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init();
