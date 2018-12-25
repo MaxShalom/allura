@@ -6,72 +6,26 @@ body, html {
   padding-right: 4%;
 }
 
-p, li, ol {
-  font-family: 'Merriweather', sans-serif;
-  font-size: 14px;
-}
-
-h1, h2, h3, h4, h5, h6, .important {
-  font-family: 'Lato', sans-serif;
-}
-
-.header {
-  background-color: #054b91;
-  height: 80%;
-
-  @media screen and (max-width: 600px) {
-    height: 100%; 
-  }
-}
-
-.hero-image {
-  /* Set a specific height */
-  height: 50%;
-
-  /* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-/* Place text in the middle of the image */
-.hero-text {
-  text-align: center;
-  vertical-align: -webkit-baseline-middle;
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 22px;
-}
-
-.lead {
-  font-size: 22px;
-  text-align: center;
-}
-
 /* Colors */
 
 .primary {
-  color: #054b91;
+  color: #F7A027;
 }
 
 .secondary {
-  color: #689ed8;
+  color: #081730;
 }
 
 .highlighter {
-  color: #da4167;
+  color: #A9884B;
 }
 
 .off-white {
-  color: #efefef;
+  color: #F5E6D3;
 }
 
 .really-dark {
-  color: #444444;
+  color: #364042;
 }
 
 .white {
@@ -81,45 +35,45 @@ h1, h2, h3, h4, h5, h6, .important {
 
 
 .back-primary {
-  background-color: #054b91;
+  background-color: #F7A027;
 }
 
 .back-secondary {
-  background-color: #689ed8;
+  background-color: #081730;
 }
 
 .back-highlighter {
-  background-color: #da4167;
+  background-color: #A9884B;
 }
 
 .back-off-white {
-  background-color: #efefef;
+  background-color: #F5E6D3;
 }
 
 .back-really-dark {
-  background-color: #444444;
+  background-color: #364042;
 }
 
 
 
 .border-primary {
-  border-color: #054b91;
+  border-color: #F7A027;
 }
 
 .border-secondary {
-  border-color: #689ed8;
+  border-color: #081730;
 }
 
 .border-highlighter {
-  border-color: #da4167;
+  border-color: #A9884B;
 }
 
 .border-off-white {
-  border-color: #efefef;
+  border-color: #F5E6D3;
 }
 
 .border-really-dark {
-  border-color: #444444;
+  border-color: #364042;
 }
 
 .hover-secondary:hover {
@@ -127,6 +81,13 @@ h1, h2, h3, h4, h5, h6, .important {
 }
 
 
+
+/* Fonts and Text */
+
+p, li, ol {
+  font-family: 'Karla', sans-serif;
+  font-size: 14px;
+}
 
 .al {
   text-align: left;
