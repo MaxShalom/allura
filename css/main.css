@@ -1,0 +1,95 @@
+html,
+body {
+  margin: 0%;
+}
+
+/* ----- Typography Helpers ----- */
+
+h1, 
+h2 {
+  font-family: 'Muli', sans-serif;
+}
+
+h1, 
+.company {
+  font-weight: 800;
+  font-size: 72px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+p {
+  font-family: 'Martel', serif;
+  font-size: 18px;
+}
+
+.sub-1 {
+ font-size: 36px;
+}
+
+.sub-2 {
+  font-size: 18px;
+}
+
+/* ----- Layout Modifiers ----- */
+
+.al {
+  text-align: left;
+}
+
+.ac {
+  text-align: center;
+}
+
+.ar {
+  text-align: right;
+}
+
+/* ----- Page Specific CSS ----- */
+
+.hero {
+  height: 40%;
+  background-image: url(https://images.unsplash.com/photo-1546447208-9d7b923c0204);
+  background-color: #cccccc;
+  height: 500px;
+  background-position: 50% 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
+.nav {
+  margin: 3%;
+}
+
+.hero-text {
+  padding: 10%;
+  color: whitesmoke;
+}
+
+.page-body {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.feature {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+footer {
+  background-color: #eeeeee;
+  padding-top: 7.5%;
+  padding-bottom: 7.5%;
+  padding-left: 5%;
+}
+
+.thanks {
+  font-size: 16px;
+  text-align: center;
+  background-color: #e0e0e0;
+  padding: 10px;
+}
