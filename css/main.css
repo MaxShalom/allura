@@ -3,10 +3,17 @@ body {
   margin: 0%;
 }
 
+nav {
+  margin-top: .4%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 /* ----- Typography Helpers ----- */
 
 h1, 
-h2 {
+h2, 
+.muli {
   font-family: 'Muli', sans-serif;
 }
 
@@ -34,6 +41,20 @@ p {
   font-size: 18px;
 }
 
+/* ----- Color Modifiers ----- */
+
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
+}
+
+.b--black {
+  border: black 1px;
+}
+
 /* ----- Layout Modifiers ----- */
 
 .al {
@@ -50,19 +71,23 @@ p {
 
 /* ----- Page Specific CSS ----- */
 
+.darker {
+  background: rgb(0,0,0);
+  background: -moz-linear-gradient(180deg, rgba(0,0,0,0.7819327560125613) 0%, rgba(255,255,255,0) 100%);
+  background: -webkit-linear-gradient(180deg, rgba(0,0,0,0.7819327560125613) 0%, rgba(255,255,255,0) 100%);
+  background: linear-gradient(180deg, rgba(0,0,0,0.7819327560125613) 0%, rgba(255,255,255,0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#ffffff",GradientType=1); 
+}
+
 .hero {
   height: 40%;
   background-image: url(https://images.unsplash.com/photo-1546447208-9d7b923c0204);
   background-color: #cccccc;
   height: 500px;
   background-position: 50% 100%;
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
   background-repeat: no-repeat; 
   background-size: cover;
-}
-
-.nav {
-  margin: 3%;
 }
 
 .hero-text {
@@ -71,6 +96,7 @@ p {
 }
 
 .page-body {
+  margin-top: 3%;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -80,16 +106,26 @@ p {
   padding-bottom: 3%;
 }
 
+.feature-img {
+  width: 100%;
+}
+
 footer {
-  background-color: #eeeeee;
+  background-color: #eaeaea;
   padding-top: 7.5%;
   padding-bottom: 7.5%;
   padding-left: 5%;
 }
 
+a.pages {
+  color: black;
+}
+
 .thanks {
   font-size: 16px;
   text-align: center;
-  background-color: #e0e0e0;
+  background-color: #f0f0f0;
   padding: 10px;
+  font-family: 'Muli', sans-serif;
+  font-weight: 400;
 }
