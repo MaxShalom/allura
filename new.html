@@ -12,55 +12,42 @@
 <body>
 
   <div class="hero">
-    <div class="nav darker">
-      <nav class="navbar is-transparent t is-fixed-top darker is-hidden-touch muli darker">
-        <div id="navbarTransparent" class="navbar-menu">
+    <div class="nav" id="navbar">
+      <nav class="navbar is-transparent is-fixed-top">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="#">
+            <img src="assets/allura.svg" alt="allura logo" width="130">
+          </a>
+          <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      
+        <div id="navbarExampleTransparentExample" class="navbar-menu">
           <div class="navbar-start">
+            <a class="navbar-item" href="about.html">
+              About Us
+            </a>
             <div class="navbar-item has-dropdown is-hoverable">
-              <a class="navbar-link white b" href="/licenses">
-                Licenses
+              <a class="navbar-link" href="projects.html">
+                Projects
               </a>
               <div class="navbar-dropdown is-boxed">
-                <a class="navbar-item" href="/licenses#enyce">
-                  Enyce
+                <a class="navbar-item" href="#">
+                  Latest
                 </a>
-                <a class="navbar-item" href="/licenses#delias">
-                  Delia's
-                </a>
-                <a class="navbar-item" href="/licenses#dollhouse">
-                  Dollhouse
-                </a>
-                <a class="navbar-item" href="/licenses#ddc">
-                  Duck Duck Goose
-                </a>
-                <a class="navbar-item" href="/licenses#bhpc">
-                  Beverly Hills Polo Club
+                <a class="navbar-item" href="#">
+                  Featured
                 </a>
               </div>
             </div>
           </div>
-      
-          <div class="navbar-brand">
-            <a class="navbar-item" href="https://bulma.io">
-              <img src="assets/allura-white.svg" alt="Allura Imports Inc." width="112" height="28">
-            </a>
-            <div class="navbar-burger burger" data-target="navbarTransparent">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-          </div>
-      
           <div class="navbar-end">
-            <div class="navbar-item">
-              <div class="field is-grouped">
-                <p class="control">
-                  <a class="button grad b bn muli" href="/contact">
-                    <span>Contact</span>
-                  </a>
-                </p>
-              </div>
-            </div>
+            <a class="navbar-item" href="contact.html">
+              Contact
+            </a>
           </div>
         </div>
       </nav>
@@ -147,26 +134,63 @@
   </div>
 
   <footer>
-    <div class="columns">
-      <div class="column">
-        <h2>Allura Imports Inc.</h2>
-        <p class="sub-2 muli">
-          1407 Broadway <br>
-          New York, NY <br>
-          01110
+    <div class="footer-left muli">
+      <img src="assets/allura-white.svg" width="200px">
+      <p class="footer-links muli">
+        <a href="#">Home</a>
+        ·
+        <a href="#">Brands</a>
+        ·
+        <a href="#">About Us</a>
+        ·
+        <a href="#">Contact</a>
+      </p>
+      <p class="footer-company-name muli">
+        Allura Imports Inc. © 2019 <br>
+        Website made by <a>Max Shalom</a>
+      </p>
+    </div>
+
+    <div class="footer-center muli">
+      <div>
+        <i class="fa fa-map-marker"></i>
+        <p class="muli">
+          1407 Broadway <br> 
+          New York, New York <br>
+          00110
         </p>
       </div>
-      <div class="column pages">
-        <p><a href="#" class="muli">Home</a></p>
-        <p><a href="#" class="muli">Brands</a></p>
-        <p><a href="#" class="muli">About Us</a></p>
-        <p><a href="#" class="muli">Contact Us</a></p>
+      <div>
+        <i class="fa fa-phone"></i>
+        <p class="muli">+1 212 650 2288</p>
+      </div>
+      <div>
+        <i class="fa fa-envelope"></i>
+        <p class="muli"><a href="mailto:support@company.com">cs@alluraimports.com</a></p>
+      </div>
+    </div>
+
+    <div class="footer-right muli">
+      <p class="footer-company-about muli">
+        <span>About the company</span>
+        Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+      </p>
+      <div class="footer-icons">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-github"></i></a>
       </div>
     </div>
   </footer>
-  <div>
-    <p class="thanks">Website made by <a>Max Shalom</a></p>
-  </div>
+
+  <script>
+    window.onscroll = () => {
+      const nav = document.querySelector('#navbar');
+      if(this.scrollY <= 10) nav.className = ''; else nav.className = 'scroll';
+    };
+  </script>
+
 
 </body>
 </html>
