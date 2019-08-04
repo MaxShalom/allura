@@ -1,0 +1,36 @@
+html {
+  margin: 0;
+  padding: 0%;
+}
+
+footer {
+  background-color: #ebecee;
+  padding: 5%
+}
+
+.footer-main{
+
+}
+
+.footer-sub {
+  background-color: #dfe1e2;
+  padding: 5px;
+}
+
+.thanks {
+  font-family: 'Abril Fatface', cursive;
+}
+
+.pf {
+  padding: 5%;
+}
+
+.logo {
+  width: 150px;
+}
+
+h5 {
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+}

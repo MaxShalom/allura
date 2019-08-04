@@ -12,46 +12,25 @@
 <body>
 
   <div class="hero">
-    <div class="nav" id="navbar">
-      <nav class="navbar is-transparent is-fixed-top">
-        <div class="navbar-brand">
-          <a class="navbar-item" href="#">
-            <img src="assets/allura.svg" alt="allura logo" width="130">
+    <header>
+      <div class="container">
+        <nav id="navigation">
+          <a href="#" class="logo"><img src="assets/allura.svg" width="120px"></a>
+          <a aria-label="mobile menu" class="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
           </a>
-          <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-      
-        <div id="navbarExampleTransparentExample" class="navbar-menu">
-          <div class="navbar-start">
-            <a class="navbar-item" href="about.html">
-              About Us
-            </a>
-            <div class="navbar-item has-dropdown is-hoverable">
-              <a class="navbar-link" href="projects.html">
-                Projects
-              </a>
-              <div class="navbar-dropdown is-boxed">
-                <a class="navbar-item" href="#">
-                  Latest
-                </a>
-                <a class="navbar-item" href="#">
-                  Featured
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="navbar-end">
-            <a class="navbar-item" href="contact.html">
-              Contact
-            </a>
-          </div>
-        </div>
-      </nav>
-    </div>
+            <ul class="menu-left">
+              <li><a href="#about">About</a></li>
+              <li><a href="#exp">Resume</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+      </div>
+    </header>
     <div class="hero-text">
       <h1 class="company">Allura Imports Inc.</h1>
       <p class="sub-1">Since 1957</p>
@@ -147,7 +126,7 @@
       </p>
       <p class="footer-company-name muli">
         Allura Imports Inc. © 2019 <br>
-        Website made by <a>Max Shalom</a>
+        Website made by <a class="thanks">Max Shalom</a>
       </p>
     </div>
 
@@ -183,6 +162,9 @@
       </div>
     </div>
   </footer>
+  <section class="thanks footer-center">
+    <h3 class="max">Max Shalom</h3>
+  </section>
 
   <script>
     window.onscroll = () => {
@@ -190,7 +172,82 @@
       if(this.scrollY <= 10) nav.className = ''; else nav.className = 'scroll';
     };
   </script>
+  <script>
+    $('.logo').on('click', function(e) {
+      e.preventDefault();
+      $('.nav-toggle').removeClass('open');
+      $('.menu-left').removeClass('collapse');
+      $('html, body').animate({
+        scrollTop: 0
+      }, 750, 'easeInOutQuad')
+    });
+    // LINKS TO ANCHORS
+    $('a[href^="#"]').on('click', function(event) {
 
+      var $target = $(this.getAttribute('href'));
+
+      if($target.length) {
+        event.preventDefault();
+        $('html, body').stop().animate({
+          scrollTop: $target.offset().top
+        }, 750, 'easeInOutQuad');
+      }
+    });
+
+    // TOGGLE HAMBURGER & COLLAPSE NAV
+    $('.nav-toggle').on('click', function() {
+      $(this).toggleClass('open');
+      $('.menu-left').toggleClass('collapse');
+    });
+    // REMOVE X & COLLAPSE NAV ON ON CLICK
+    $('.menu-left a').on('click', function() {
+      $('.nav-toggle').removeClass('open');
+      $('.menu-left').removeClass('collapse');
+    });
+
+    // SHOW/HIDE NAV
+
+    // Hide Header on on scroll down
+    var didScroll;
+    var lastScrollTop = 0;
+    var delta = 5;
+    var navbarHeight = $('header').outerHeight();
+
+    $(window).scroll(function(event){
+        didScroll = true;
+    });
+
+    setInterval(function() {
+        if (didScroll) {
+            hasScrolled();
+            didScroll = false;
+        }
+    }, 250);
+
+    function hasScrolled() {
+      var st = $(this).scrollTop();
+
+      // Make sure they scroll more than delta
+      if(Math.abs(lastScrollTop - st) <= delta)
+          return;
+
+      // If they scrolled down and are past the navbar, add class .nav-up.
+      // This is necessary so you never see what is "behind" the navbar.
+      if (st > lastScrollTop && st > navbarHeight){
+          // Scroll Down
+          $('header').removeClass('show-nav').addClass('hide-nav');
+          $('.nav-toggle').removeClass('open');
+          $('.menu-left').removeClass('collapse');
+      } else {
+          // Scroll Up
+          if(st + $(window).height() < $(document).height()) {
+              $('header').removeClass('hide-nav').addClass('show-nav');
+          }
+      }
+
+      lastScrollTop = st;
+    }
+  </script>
 
 </body>
 </html>
