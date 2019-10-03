@@ -1,4 +1,23 @@
 html,
 body {
   font-family: 'Open Sans', sans-serif;
+  scroll-behavior: smooth;
+}
+
+h1, 
+h2 {
+  font-family: 'Playfair Display', serif;
+}
+
+img {
+  padding: 1%;
+}
+
+.os-bold {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
+.p-5 {
+  padding: 3%;
 }
