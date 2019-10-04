@@ -5,7 +5,8 @@ body {
 }
 
 h1, 
-h2 {
+h2,
+h3 {
   font-family: 'Playfair Display', serif;
 }
 
@@ -19,5 +20,5 @@ img {
 }
 
 .p-5 {
-  padding: 3%;
+  padding: 5%;
 }
