@@ -39,7 +39,7 @@ h3,
 
 .os-bold {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .p-5 {
@@ -66,16 +66,11 @@ h3,
 .bg-nyc {
   background-attachment: fixed;
   background-image: url(../assets/sunset-min.jpg);
-  background-color: #000000;
+  background-color: rgba(0, 0, 0, .75);
   height: 600px;
   background-position: 75% 100% 75% 75%;
   background-repeat: no-repeat; 
   background-size: cover;
-}
-
-.button-bg {
-  background-color: #1F2D3B;
-  color: white;
 }
 
 .footer-body,
