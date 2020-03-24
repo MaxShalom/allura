@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Allura Imports Inc.</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <style>
+    .mn {
+      font-family: 'Montserrat', sans-serif;
+    }
+    .os-bold {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 700;
+    }
+    body {
+      font-family: 'Open Sans', sans-serif;
+      overflow: hidden;
+      margin: 0;
+    }
+
+    /* RGB */
+    .white{color:white;}
+    .blue-white{color:rgba(216, 233, 255, 1);}
+    .blue{color:rgba(30, 56, 136, 1);}
+    .dark-blue{color:rgba(0, 19, 43, 1);}
+    .black{color:rgba(0, 0, 0, 1);}
+    .scarlet{color:rgba(66, 4, 32, 1);}
+
+    .bg-blue-white{background-color:rgba(216, 233, 255, 1);}
+    .bg-blue{background-color:rgba(30, 56, 136, 1);}
+    .bg-dark-blue{background-color:rgba(0, 19, 43, 1);}
+    .bg-black{background-color:rgba(0, 0, 0, 1);}
+    .bg-scarlet{background-color:rgba(66, 4, 32, 1);}
+
+    .bg-nyc {
+      background-attachment: fixed;
+      background-image: url(../assets/sunset-min.jpg);
+      background-color: rgba(0, 0, 0, .75);
+      height: 600px;
+      background-position: 75% 100% 75% 75%;
+      background-repeat: no-repeat; 
+      background-size: cover;
+    }
+
+    .on {
+      border: none;
+    }
+
+    .on:hover{
+      color: rgb(143, 142, 142);
+    }
+    </style>
+  </head>
+  <body style="max-width: 100%;">
+    <section class="hero bg-blue-white is-medium bg-nyc" style="max-width: 100%;">
+      <div class="hero-head">
+        <nav class="navbar is-transparent">
+          <div class="navbar-brand">
+            <a class="navbar-item" href="#">
+              <img src="assets/allura-white.svg" alt="Allura Imports Inc." width="112" height="28">
+            </a>
+            <div class="navbar-burger burger white" data-target="navbarExampleTransparentExample">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        
+          <div id="navbarExampleTransparentExample" class="navbar-menu">
+            <div class="navbar-start">
+              <a class="navbar-item white os-bold" href="#">
+                Home
+              </a>
+              <a class="navbar-item white os-bold" href="#">
+                Brands
+              </a>
+            </div>
+        
+            <div class="navbar-end">
+              <div class="navbar-item">
+                <div class="field is-grouped">
+                  <p class="control">
+                    <a class="button bg-blue is-rounded os-bold white on" href="#">
+                      <span>Contact</span>
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="hero-body">
+        <div style="min-height:75px;"></div>
+        <div class="container">
+          <h1 class="title mn white is-size-1">
+            Allura Imports Inc.
+          </h1>
+          <h2 class="subtitle os-bold white">
+            Large subtitle
+          </h2>
+        </div>
+        <div style="min-height:75px;"></div>
+      </div>
+      <div class="hero-footer is-centered" style="">
+        <div class="is-centered white" href="#learn-more"><i class="fas fa-chevron-circle-down white" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);height: 500px;"></i></div>
+      </div>
+    </section>
+
+    <div id="learn-more"></div>
+    <div id="page-body" style="max-height: 100%;">
+      <div class="columns" style="max-height: 50%;">
+        <div class="column">
+          <img src="assets/home/enyce.jpg"  style="max-width: 100%; background-position: fixed;">
+        </div>
+        <div class="column">
+          <div style="padding: 5%;"  style="max-width: 100%;">
+            <h2 class="mn is-size-4">
+              About us
+            </h2>
+            <hr>
+            <p>
+              Suddenly she came upon a little three-legged table, 
+              all made of solid glass; there was nothing on it except a tiny golden key, 
+              and Alice's first thought was that it might belong to one of the doors of the hall; 
+              but, alas! either the locks were too large, or the key was too small, 
+              but at any rate it would not open any of them. However, on the second time round, 
+              she came upon a low curtain she had not noticed before...
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="columns" style="max-height: 50%;">
+        <div class="column">
+          <div style="padding: 5%;"  style="max-width: 100%;">
+            <h2 class="mn is-size-3">
+              Unbeatable Prices
+            </h2>
+            <hr>
+            <p>
+              We offer various collections for children of all ages. 
+              From newborn up to sizes 7-16 in girls and 8-18 in boys, 
+              we have the fashion that our customers crave at a cost that can't be beat.
+            </p>
+          </div>
+        </div>
+        <div class="column">
+          <img src="assets/home/baby.jpg"  style="min-width: 100%;">
+        </div>
+      </div>
+    </div>
+
+    
+
+  
+
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+      // Check if there are any navbar burgers
+      if ($navbarBurgers.length > 0) {
+
+        // Add a click event on each of them
+        $navbarBurgers.forEach( el => {
+          el.addEventListener('click', () => {
+
+            // Get the target from the "data-target" attribute
+            const target = el.dataset.target;
+            const $target = document.getElementById(target);
+
+            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+            el.classList.toggle('is-active');
+            $target.classList.toggle('is-active');
+
+          });
+        });
+      }
+
+      });
+
+      var docWidth = document.documentElement.offsetWidth;
+
+[].forEach.call(
+  document.querySelectorAll('*'),
+  function(el) {
+    if (el.offsetWidth > docWidth) {
+      console.log(el);
+    }
+  }
+);
+    </script>
+  </body>
+</html>
