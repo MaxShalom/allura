@@ -4,15 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Brands | Allura Imports Inc.</title>
+  <title>Home | Allura Imports Inc.</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Playfair+Display:700&display=swap">
   <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header>
     <div class="cover bg-left bg-center-l" style="background-image: url(assets/sunset.jpg); background-attachment: fixed;  background-position: bottom;">
-      <div class="bg-black-80 pb5 pb6-m pb7-l">
+      <div class="bg-black-80 pb6 pb7-m pb8-l">
         <nav class="dt w-100 mw8 center"> 
           <div class="dtc w2 v-mid pa4">
             <a href="/" class="dib w4 h2 pa1 hover-white">
@@ -26,14 +27,151 @@
           </div>
         </nav> 
         <div class="tc-l mt4 mt5-m mt6-l ph4">
-          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title tc">Brands</h1>
+          <h1 class="f2 f1-l fw2 pb1 white-90 mb0 lh-title">Brands</h1>
           <p class="pb4 white-90 mb0 tc">With a vast portfolio of licensed brands as well as in house labels, 
             <br>
             our products can be found at various retailers worldwide.</p>
+          <button class="button is-link is-rounded"><a class="white" href="#learn-more">Learn More</a></button>
+        </div>
       </div>
+      
     </div> 
+     <div id="learn-more"></div>
   </header>
-    
-  
+
+ 
+  <div class="section-2 cf bg-black m0 p0">
+    <div class="image-with-text fl w-100 w-50-ns">
+        <img src="assets/brands/bhpc.png" class="" alt="Beverly Hills Polo Club logo" style="width:100%; filter: brightness(40%);">
+        <div class="image-text bottom-left pa2">
+            <h1 class="white title">Beverly Hills Polo Club</h1>
+            <p>
+              Beverly Hills Polo Club brings timeless style to kids everywhere with classic 
+              fashion options that never go out of style.
+            </p>
+        </div>
+    </div>
+    <div class="image-with-text fl w-100 w-50-ns">
+        <img src="assets/brands/enyce.png" class="" alt="Enyce Logo" style="width:100%; filter: brightness(40%);">
+        <div class="image-text bottom-right tr pa2">
+            <h1 class="white title">ENYCE</h1>
+            <p>
+              Founded in NYC in 1996 and distributed across multiple retail outlets. 
+              As one of the leading moderate price point apparel brands, ENYCE offers quality, 
+              on trend clothing and accessories. 
+              <br>
+              ENYCE is an authentic street wear brand which represents the diversity and 
+              cultural nuances common to metropolitan living. ENYCE is original, bold and on trend. 
+              ENYCE illustrates an authentic urban experience.
+            </p>
+        </div>
+    </div>
+  </div>
+
+  <div class="section-2 cf bg-black">
+    <div class="image-with-text fl w-100 w-50-ns">
+        <img src="assets/brands/delias.png" class="" alt="Delia's logo" style="width:100%; filter: brightness(40%);">
+        <div class="image-text bottom-left pa2">
+            <h1 class="white title">Delia's</h1>
+            <p>
+                Since 1957, Allura Imports Inc. has been dedicated 
+                to creating quality fashion for children at the best 
+                possible value.
+            </p>
+        </div>
+    </div>
+    <div class="image-with-text fl w-100 w-50-ns">
+        <img src="assets/brands/delias-girl.png" class="" alt="Delia's Girl logo" style="width:100%; filter: brightness(40%);">
+        <div class="image-text bottom-right tr pa2">
+            <h1 class="white title">Delia's Girl</h1>
+            <p>
+                Since 1957, Allura Imports Inc. has been dedicated 
+                to creating quality fashion for children at the best 
+                possible value.
+            </p>
+        </div>
+    </div>
+  </div>
+
+  <div class="section-2 cf bg-black">
+    <div class="image-with-text fl w-100 w-50-ns">
+        <img src="assets/brands/dollhouse.png" class="" alt="Dollhouse logo" style="width:100%; filter: brightness(40%);">
+        <div class="image-text bottom-left pa2">
+            <h1 class="white title">Dollhouse</h1>
+            <p>
+              The Dollhouse girls line is all about trendy and innovative fashion. 
+              Dollhouse offers girls of all ages the chance to express themselves through their style. 
+              With the mantra "You Are Beautiful," Dollhouse design is all about beauty and details.
+            </p>
+        </div>
+    </div>
+    <div class="image-with-text fl w-100 w-50-ns">
+        <img src="assets/brands/duck.png" class="" alt="Duck Duck Goose logo" style="width:100%; filter: brightness(40%);">
+        <div class="image-text bottom-right tr pa2">
+            <h1 class="white title">Duck Duck Goose</h1>
+            <p>
+              Duck Duck Goose is a babies clothing line that offers cotton rich fabrications and 
+              sugar sweet designs. For newborn and infants, Duck Duck Goose offers fashionable, 
+              cute and affordable clothes that mom and grandma are guaranteed to love. 
+            </p>
+        </div>
+    </div>
+  </div>
+
+  <div class="newsletter bg-black">
+    <form class="bg-black white pa5">
+      <fieldset class="cf bn ma0 pa0">
+        <legend class="pa0 f5 f4-ns mb3 white">Sign up for our newsletter</legend>
+        <div class="cf">
+          <label class="clip" for="email-address">Email Address</label>
+          <input class="f6 f5-l input-reset bn fl white bg-white pa3 lh-solid w-100 w-75-m w-80-l br2-ns br--left-ns" placeholder="Your Email Address" type="text" name="email-address" value="" id="email-address">
+          <input class="f6 f5-l button-reset fl pv3 tc bn bg-animate bg-light-red hover-bg-black white pointer w-100 w-25-m w-20-l br2-ns br--right-ns" type="submit" value="Subscribe">
+        </div>
+      </fieldset>
+    </form>
+  </div>
+
+  <footer style="background-image:url(assets/giphy.gif); background-position-y: 65%; " class="bg-nyc tc-l bg-center cover bg-black">
+    <div class="w-100 ph4 pv4 bg-black-80 tl">
+      <h2 class="b f2 f2-ns lh-solid white pb2">Allura Imports Inc.</h2>
+
+      <div class="cf pt4">
+        <article class="fl w-50 dib-ns w-auto-ns mr4-m mr5-l pr2 pr0-ns white">
+          <h4 class="f5 f4-l fw6 os-bold">Visit</h4>
+          <a class="dim white no-underline" href="https://goo.gl/maps/mPiBUaosqsNvhTVt9">
+            <p class="f6 f6-l">1407 Broadway <br>
+              Suite 401 <br>
+              New York, New York <br>
+              10018
+            </p>
+          </a>
+        </article>
+        <article class="fl w-50 dib-ns w-auto-ns mr4-m mr5-l p8 pl0-ns white">
+          <h4 class="f5 f4-l fw6 os-bold">Contact</h4>
+          <a href="tel:+12126954510" class="f6 db fw6 pv1 dim white link" title="Call the LA office.">
+            +1 212 695 4510
+          </a>
+          <a href="mailto:cs@alluraimports.com" class="f6 db fw6 pv1 dim white link" title="Call the LA office.">
+            cs@alluraimports.com
+          </a>
+          <a href="contact.html" class="f6 db fw6 pv1 dim white link" title="Call the LA office.">
+            Contact Form
+          </a>
+        </article>
+      </div>
+
+      <br>
+
+      <div class="mt2">
+        <a href="/index.html" title="Home" class="f6 dib pr2 light-gray dim">Home</a>
+        <a href="/about.html" title="About" class="f6 dib ph2 light-gray dim">About</a>
+        <a href="/brands.html"  title="Brands" class="f6 dib pl2 light-gray dim">Brands</a>
+      </div>
+      <div class="mt2 code white">
+        <p>Website designed and developed by <a href="https://maxshalom.com" title="Site Credits: Max Shalom" class="f6 dib light-gray dim">Max Shalom</a></p>
+      </div>
+    </div>
+  </footer>
+
 </body>
 </html>

@@ -7,6 +7,7 @@
   <title>Home | Allura Imports Inc.</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Playfair+Display:700&display=swap">
   <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -26,10 +27,13 @@
           </div>
         </nav> 
         <div class="tc-l mt4 mt5-m mt6-l ph4">
-          <h1 class="f2 f1-l fw2 pb4 white-90 mb0 lh-title">Allura Imports Inc.</h1>
-          <a class="f6 no-underline grow dib v-mid bg-blue white ba br-pill b--blue ph3 pv2 mb3" href="#learn-more">Learn More</a>
+          <h1 class="f2 f1-l fw2 pb2 white-90 mb0 lh-title">Allura Imports Inc.</h1>
+          <p class="pb4 white-90 mb0 tc">With a vast portfolio of licensed brands as well as in house labels, 
+            <br>
+            our products can be found at various retailers worldwide.</p>
+          <button class="button is-link is-rounded"><a class="white" href="#learn-more">Learn More</a></button>
           <span class="dib v-mid ph3 white-70 mb3">or</span>
-          <a class="f6 no-underline grow dib v-mid white ba b--white br-pill ph3 pv2 mb3" href="">Contact Us</a>
+          <a class="f6 hover-white no-underline white-70 dib v-mid ba br-pill ph3 pv2 mb3" href="">Contact Us</a>
         </div>
       </div>
       
@@ -38,43 +42,39 @@
   </header>
 
  
-  <div class="page-body p-5">
-
-
-    <article class="cf">
-      <div class="fl w-100 w-50-ns tr pr2">
-        <h1>About Us</h1>
-        <p>Since 1957, Allura Imports Inc. has been dedicated 
-          to creating quality fashion for children at the best 
-          possible value.</p>
-      </div>
-      <div class="fl w-100 w-40-ns pr2">
-        <img src="assets/home/baby.jpg" alt="Baby wearing Duck Duck Goose pajamas">
-      </div>
-    </article>
-
-    <article class="cf">
-      <div class="fl w-100 w-40-ns pr3">
-        <img src="assets/home/enyce.jpg" alt="Boys wearing ENYCE apparel">
-      </div>
-      <div class="fl w-100 w-50-ns tl pl2">
-        <h1>About Us</h1>
-        <p>Since 1957, Allura Imports Inc. has been dedicated 
-          to creating quality fashion for children at the best 
-          possible value.</p>
-      </div>
-    </article>
-
+  <div class="section-2 cf bg-black">
+    <div class="image-with-text fl w-100 w-50-ns">
+        <img src="assets/home/baby.jpg" class="" alt="Baby wearing Duck Duck Goose pajamas" style="width:100%; filter: brightness(40%);">
+        <div class="image-text bottom-left pa2">
+            <h1 class="white title">About Us</h1>
+            <p>
+                Since 1957, Allura Imports Inc. has been dedicated 
+                to creating quality fashion for children at the best 
+                possible value.
+            </p>
+        </div>
+    </div>
+    <div class="image-with-text fl w-100 w-50-ns">
+        <img src="assets/home/enyce.jpg" class="" alt="Baby wearing Duck Duck Goose pajamas" style="width:100%; filter: brightness(40%);">
+        <div class="image-text bottom-right tr pa2">
+            <h1 class="white title">About Us</h1>
+            <p>
+                Since 1957, Allura Imports Inc. has been dedicated 
+                to creating quality fashion for children at the best 
+                possible value.
+            </p>
+        </div>
+    </div>
   </div>
 
-  <div class="newsletter w-100 bg-white-blue">
-    <form class="center pa4">
+  <div class="newsletter bg-black">
+    <form class="bg-black white pa5">
       <fieldset class="cf bn ma0 pa0">
-        <legend class="pa0 f5 f4-ns mb3 white os-bold">Sign up for our newsletter</legend>
+        <legend class="pa0 f5 f4-ns mb3 white">Sign up for our newsletter</legend>
         <div class="cf">
           <label class="clip" for="email-address">Email Address</label>
-          <input class="mb3 f6 f5-l input-reset bn fl black-80 bg-white pa3 lh-solid w-100 w-75-m w-80-l br10-ns br--left-ns" placeholder="Your Email Address" type="text" name="email-address" value="" id="email-address">
-          <input class="f6 f5-l button-reset fl pv3 tc bn bg-animate bg-black-70 hover-bg-black white pointer w-100 w-25-m w-20-l br2-ns br--right-ns br-50" type="submit" value="Subscribe">
+          <input class="f6 f5-l input-reset bn fl white bg-white pa3 lh-solid w-100 w-75-m w-80-l br2-ns br--left-ns" placeholder="Your Email Address" type="text" name="email-address" value="" id="email-address">
+          <input class="f6 f5-l button-reset fl pv3 tc bn bg-animate bg-light-red hover-bg-black white pointer w-100 w-25-m w-20-l br2-ns br--right-ns" type="submit" value="Subscribe">
         </div>
       </fieldset>
     </form>
@@ -85,54 +85,59 @@
     <div class="brands mw9">
       <h2 class="f2">Brands</h2>
       <p>With a vast portfolio of licensed brands as well as in house labels, our products can be found at various retailers worldwide.</p>
+      <hr class="bg-b">
       <div class="center">
         <div class="cf">
-          <div class="fl w-100 w-third-ns pa2">
+          <div class="fl w-100 w-third-ns pl2 pr2 pb2">
             <div class="">
-                <img src="assets/brands/bhpc.png">
+                <img src="assets/brands/enyce.png">
             </div>
           </div>
-          <div class="fl w-100 w-third-ns pa2">
+          <div class="fl w-100 w-third-ns pl2 pr2 pb2">
             <div class="">
                 <img src="assets/brands/delias-girl.png">
             </div>
           </div>
-          <div class="fl w-100 w-third-ns pa2">
+          <div class="fl w-100 w-third-ns pl2 pr2 pb2">
             <div class="">
                 <img src="assets/brands/dollhouse.png">
             </div>
           </div>
         </div>
       </div>
-      <div class="mw9 center">
+      <div class="center">
         <div class="cf">
-          <div class="fl w-100 w-third-ns pa2">
+          <div class="fl w-100 w-third-ns pl2 pr2 pb2">
             <div class="">
                 <img class="" src="assets/brands/duck.png">
             </div>
           </div>
-          <div class="fl w-100 w-third-ns pa2">
-            <div class="">
-                <img src="assets/brands/enyce.png">
-            </div>
-          </div>
-          <div class="fl w-100 w-third-ns pa2">
+          <div class="fl w-100 w-third-ns pl2 pr2 pb2">
             <div class="">
                 <img src="assets/brands/delias.png">
+            </div>
+          </div>
+          <div class="fl w-100 w-third-ns pl2 pr2 pb2">
+            <div class="">
+                <img src="assets/brands/bhpc.png">
             </div>
           </div>
         </div>
       </div>
       
     </div>
-    <p class="tc" ><a href=" " class="f6 no-underline grow dib v-mid bg-blue white ba br-pill b--blue ph3 pv2 mt1 mb4">Learn More About Our Brands</a></p>
+    <p class="has-text-centered pa4">
+      <a class="button is-rounded has-text-centered is-info grow">
+        Learn more about our brands
+      </a>
+    </p>
   </div>
 
-  <footer style="bhackground-image:url(assets/giphy.gif); background-position-y: 65%;" class="bg-nyc tc-l bg-center cover bg-black">
+  <footer style="background-image:url(assets/giphy.gif); background-position-y: 65%; " class="bg-nyc tc-l bg-center cover bg-black">
     <div class="w-100 ph4 pv4 bg-black-80 tl">
-      <h2 class="b f2 f2-ns lh-solid white">Allura Imports Inc.</h2>
+      <h2 class="b f2 f2-ns lh-solid white pb2">Allura Imports Inc.</h2>
 
-      <div class="cf">
+      <div class="cf pt4">
         <article class="fl w-50 dib-ns w-auto-ns mr4-m mr5-l pr2 pr0-ns white">
           <h4 class="f5 f4-l fw6 os-bold">Visit</h4>
           <a class="dim white no-underline" href="https://goo.gl/maps/mPiBUaosqsNvhTVt9">
