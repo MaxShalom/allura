@@ -11,6 +11,12 @@
   }
 }
 
+@media only screen and (max-width: 1040px) {
+  .image-with-text {
+    font-size: 50%;
+  }
+}
+
 html,
 body {
   font-family: 'Open Sans', sans-serif;
@@ -72,6 +78,7 @@ h3,
   text-align: center;
   color: white;
 }
+
 .bottom-left {
   position: absolute;
   text-align: left;
