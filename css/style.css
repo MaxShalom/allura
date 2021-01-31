@@ -2,6 +2,15 @@
   background-color: #bbbbbb;
 }
 
+@media only screen and (min-width: 1920px) {
+  .section-2 {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 0%;
+  }
+}
+
 html,
 body {
   font-family: 'Open Sans', sans-serif;
@@ -101,4 +110,8 @@ h3,
 .newsletter {
   background-color: #2B3E50;
   color: white;
+}
+
+.brands-page {
+  padding: 5%;
 }
